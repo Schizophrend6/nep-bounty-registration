@@ -1,0 +1,47 @@
+{
+  "name": "nep-bounty-registration",
+  "version": "1.0.0",
+  "description": "Send 0 BNB to register your address in the NEP bounty campaign",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+    "compile": "truffle compile"
+  },
+  "standard": {
+    "env": [
+      "mocha"
+    ],
+    "global": [
+      "contract",
+      "artifacts",
+      "web3"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neptune-mutual/nep-bounty-registration.git"
+  },
+  "keywords": [
+    "erc20",
+    "bep20",
+    "bounty",
+    "airdrop",
+    "solidity",
+    "binance",
+    "smart",
+    "chain",
+    "bsc"
+  ],
+  "author": "Neptune Mutual",
+  "license": "BUSL-1.1",
+  "bugs": {
+    "url": "https://github.com/neptune-mutual/nep-bounty-registration/issues"
+  },
+  "homepage": "https://github.com/neptune-mutual/nep-bounty-registration#readme",
+  "devDependencies": {
+    "openzeppelin-solidity": "^4.1.0",
+    "prettier": "^2.3.0",
+    "prettier-plugin-solidity": "^1.0.0-beta.11",
+    "standard": "^16.0.3"
+  }
+}
